@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* top: 0; */
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #f2f2f2;
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+  main {
+    width: 340px;
+    height: 600px;
+    font-family: serif;
+    margin: 70px auto;
+    /* border: 1px solid #fff; */
+    border: 6px solid #444;
+    border-radius: 5px;
+    background-color: lightgrey;
+    padding: 3px;
+    /* border: 3px solid lightgray; */
+    /* box-shadow: 2px 2px 3px 3px lightgray; */
+    /* border-radius: 15px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+  }
+
+  header {
+width: 94%;
+height: 8%;
+/* border: 1px solid blue; */
+/* background-color: #333; */
+color: #111;
+font-size: 15px;
+display: flex;
+/* margin-bottom: 10px; */
+justify-content: space-between;
+align-items: center;
+}
+.every{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+}
+  .cal {
+    width: 96%;
+    height: 455px;
+    /* margin-top: 10px; */
+    border: 1px solid #fff;
+    border-radius: 8px;
+    margin: auto;
+    position: relative;
+    /* margin-bottom: -20px; */
+    background-color: #fff;
+    box-shadow: 2px 2px 3px 3px white;
+  }
+  #myShow {
+    width: 90%;
+    height: 40px;
+    /* margin: auto; */
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    outline: none;
+    text-align: right;
+    color: black;
+    padding: 5px;
+    font-size: 25px;
+  }
+  ::placeholder {
+    color: black;
+    font-size: 25px;
+  }
+  .all {
+    width: 90%;
+    margin: auto;
+    /* margin-top: 15px; */
+    /* border: 1px solid blue; */
+  }
+  ul {
+    margin: auto;
+  }
+  li {
+    display: inline-block;
+    margin-left: 23px;
+    cursor: pointer;
+    margin-bottom: 6px;
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 5px;
+  }
+  li:hover {
+    color: bisque;
+  }
+  .ac {
+    color: #333;
+    background-color: bisque;
+    box-shadow: 1px 1px 2px 2px bisque;
+    border: 4px solid bisque;
+  }
+  .first,
+  .second,
+  .third,
+  .last {
+    margin-left: 5px;
+  }
+  button {
+    width: 50px;
+    padding: 5px;
+    background-color: lightgrey;
+    color: #222;
+    border: 4px solid lightgrey;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 7px;
+    margin-bottom: 15px;
+    box-shadow: 1px 1px 2px 2px lightgray;
+    cursor: pointer;
+  }
+  button:focus-within {
+    transform: translate(0.2px, 0.2px);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+  }
+  .back button {
+width: 100px;
+height: 5px;
+background-color: rgba(155, 125, 179, 0.3);
+cursor: pointer;
+border: none;
+outline: none;
+border-radius: 5px;
+}
+
+  /* .hehe{
+    width: 50px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid bisque;
+    margin: auto;
+   } */

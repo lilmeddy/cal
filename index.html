@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="every">
+        <header>
+            <nav id="time" style="margin-left: 10px"></nav>
+            <nav class="other">
+              <span><i class="icofont-music" style="margin-right: 5px"></i></span>
+              <!-- <span style="color: green;"><i class="icofont-whatsapp"><sup id="whatChange" style="border-radius: 50%; background-color:red;color:white;width: fit-content;height: fit-content;"></sup></i></span> -->
+              <span
+                ><i class="icofont-bluetooth" style="margin-right: 5px"></i
+              ></span>
+              <span><i class="icofont-wifi" style="margin-right: 5px"></i></span>
+              <span
+                ><i class="icofont-battery-full" style="margin-right: 10px"></i
+              ></span>
+            </nav>
+          </header>
+        <div class="cal">
+          <input type="text" placeholder="0" id="myShow" />
+          <div class="all">
+            <div class="ul">
+              <ul>
+                <li>MC</li>
+                <li>MR</li>
+                <li>M+</li>
+                <li>M-</li>
+                <li>MS</li>
+                <li>M <sup>+</sup></li>
+              </ul>
+            </div>
+
+            <div class="first">
+              <button onclick="Clear()" class="ac">AC</button>
+              <button onclick="del()" class="ac">CE</button>
+              <button onclick="display('/')" class="ac">÷</button>
+              <button onclick="display('%')" class="ac">%</button>
+            </div>
+            <div class="second">
+              <button onclick="display('7')" class="nums">7</button>
+              <button onclick="display('8')" class="nums">8</button>
+              <button onclick="display('9')" class="nums">9</button>
+              <button onclick="display('*')" class="ac">×</button>
+            </div>
+            <div class="second">
+              <button onclick="display('4')" class="nums">4</button>
+              <button onclick="display('5')" class="nums">5</button>
+              <button onclick="display('6')" class="nums">6</button>
+              <button onclick="display('+')" class="ac">+</button>
+            </div>
+            <div class="third">
+              <button onclick="display('1')" class="nums">1</button>
+              <button onclick="display('2')" class="nums">2</button>
+              <button onclick="display('3')" class="nums">3</button>
+              <button onclick="display('-')" class="ac">-</button>
+            </div>
+            <div class="last">
+              <button onclick="display('0')" style="width: 115px" class="ac">
+                0
+              </button>
+              <button onclick="display('.')"><sup>.</sup></button>
+              <button onclick="calculate()" class="ac">=</button>
+            </div>
+          </div>
+        </div>
+        <div class="back" style="margin-top: -7px; text-align: center">
+            <a href="index.html"><button></button></a>
+          </div>
+      </div>
+      <!-- <div class="hehe"></div> -->
+    </main>
+</body>
+</html>
+<script src="script.js"></script>
